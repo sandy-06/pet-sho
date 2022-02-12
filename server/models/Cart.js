@@ -1,9 +1,15 @@
 const { Schema, model } = require('mongoose');
-const bcrypt = require('bcrypt');
 
-const cartSchema = new Schema ({
-
-})
+const cartSchema = new Schema (
+  {
+    products: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: 'Product'
+      }
+    ]
+  }
+);
 
 const Cart = model('Cart', cartSchema);
 
