@@ -17,7 +17,11 @@ const productSchema = new Schema({
   category: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
+  },
+  image: {
+    type: String,
+    required: true,
   }
 });
 
