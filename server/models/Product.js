@@ -20,3 +20,7 @@ const productSchema = new Schema({
     unique: true
   }
 });
+
+const Product = model('Product', cartSchema);
+
+module.exports = Product;
