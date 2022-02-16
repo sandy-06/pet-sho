@@ -19,6 +19,9 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
+  isAdmin: {
+    type: Boolean
+  },
   cart: {
     type: Schema.Types.ObjectId,
     ref: 'Cart'

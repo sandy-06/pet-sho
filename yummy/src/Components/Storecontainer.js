@@ -6,7 +6,7 @@ import Toys from './pages/Toys';
 import Health from './pages/Health';
 import Footer from './Footer';
 import Food from './pages/Food';
-import Login from './pages/Login';
+import Login from './Login';
 import Checkout from './pages/Checkout';
 
 export default function StoreContainer() {
