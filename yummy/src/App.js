@@ -1,15 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from './Components/Navbar';
-import Products from './Components/Products'
-import Information from './Components/Information';
+import StoreContainer from './Components/StoreContainer';
 
 function App() {
   return (
     <main>
-      <Nav/>
-      <Products/>
-      <Information/>
+      <StoreContainer/>
     </main>
   );
 }
