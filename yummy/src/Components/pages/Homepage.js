@@ -1,6 +1,6 @@
 import React from "react";
 
-function Products() {
+function Homepage() {
 
     return (
             <div uk-filter="target: .js-filter">
@@ -57,4 +57,4 @@ function Products() {
     )
 }
 
-export default Products
+export default Homepage;
