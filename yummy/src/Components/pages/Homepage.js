@@ -11,7 +11,7 @@ function Homepage() {
                     <li uk-filter-control="[data-color='white']"><a href="#">Food</a></li>
                     <li uk-filter-control="[data-color='blue']"><a href="#">Toys</a></li>
                     <li uk-filter-control="[data-color='black']"><a href="#">Accessories</a></li>
-                    <li uk-filter-control="[data-color='black']"><a href="#">Health</a></li>
+                    <li uk-filter-control="[data-color='Health']"><a href="#">Health</a></li>
                 </ul>
 
                 <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid=''>

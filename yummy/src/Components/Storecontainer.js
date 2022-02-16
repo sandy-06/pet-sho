@@ -31,8 +31,6 @@ export default function StoreContainer() {
         }
         if (currentPage === 'Checkout') {
             return <Checkout />
-
-
         }
         return <Toys />;
     };

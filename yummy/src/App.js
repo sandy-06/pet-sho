@@ -2,12 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import StoreContainer from './Components/StoreContainer';
 
-function App() {
-  return (
-    <main>
-      <StoreContainer/>
-    </main>
-  );
-}
+const App = () => <StoreContainer/>
 
 export default App;
