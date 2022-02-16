@@ -1,4 +1,5 @@
 import React from "react";
+import Information from "../Information";
 
 function Products() {
 
@@ -15,7 +16,7 @@ function Products() {
                 <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid=''>
                     <li data-color="white">
                         <div class="uk-card uk-card-default uk-card-body">
-                            <a href="#modal-example" uk-toggle>Item</a>
+                            <a href="#modal-example" uk-toggle=''>Item</a>
                         </div>
                     </li>
                     <li data-color="blue">
