@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+
 import Nav from './Components/Navbar';
 import Products from './Components/Products'
 import Information from './Components/Information';
@@ -13,5 +14,6 @@ function App() {
     </main>
   );
 }
+
 
 export default App;
