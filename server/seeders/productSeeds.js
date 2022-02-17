@@ -130,6 +130,9 @@ const products = [
     category: toys,
     image: "yummy\src\assets\images\toys\catsprings.png",
   }),
+
+  // Food -> "../../ASSETS/IMAGES/"
+
   new Product({
     name: "godog, Dragon Squeaker Toy",
     price: 15.80,
