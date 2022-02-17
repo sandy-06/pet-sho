@@ -15,96 +15,106 @@ const products = [
     price: 35.98,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\blubuffalo.png"
   }),
   new Product({
     name: "Cesar wet dog food",
     price: 20.42,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\ceasarsdog.png"
   }),
   new Product({
     name: "Purina Friskies wet cat food",
     price: 18.89,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\friskiescatfood.png"
   }), new Product({
     name: "IAMS proactive health dry cat food",
     price: 24.98,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\iamscat.png"
   }),
    new Product({
     name: "Instict dry dog food",
     price: 62.99.toExponential,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\instinct.png"
   }),
    new Product({
     name: "Instinct dry cat food",
     price: 23.99,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\instinctcat.png"
   }),
   new Product({
     name: "Nulo wet cat food",
     price: 13.37,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\nulocat.png"
   }),
   new Product({
     name: "Purina Pro Plan dry dog food",
     price: 55.48,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\purina.png"
   }),
    new Product({
     name: "Purina Fancy Feast wet cat food",
     price: 22.98,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\purinafancycat.png"
   }),
- new Product({
-    name: "Mailer 20 pcs cat toy set",
-    price: 18.99,
-    quantity: 10,
-    category: food,
-    image:"yummy\src\assets\images\toys\tunnel.png"
-  }),
+ 
   new Product({
     name: "Hills Science Diet dry dog food",
     price: 40.99,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\sciencedietdog.png"
   }),
   new Product({
     name: "Taste of the Wild dry dog food",
     price: 54.99,
     quantity: 10,
     category: food,
+    image: "yummy\src\assets\images\food\tasteofthewild.png"
   }),
    new Product({
     name: "KIPRITII 18 pack dog toys",
     price: 26.88,
     quantity: 10,
     category: toys,
+    image: "yummy\src\assets\images\toys\assorteddogtoys.png"
   }),
+  
    new Product({
     name: "OODOSI cat wand toy",
     price: 13.9,
     quantity: 10,
     category: toys,
+    image: "yummy\src\assets\images\toys\assotcat.png"
   }),
    new Product({
     name: "Potaroma fluffy cat Ball",
     price: 15.99,
     quantity: 10,
     category: toys,
+    image: "yummy\src\assets\images\toys\catball.png"
   }),
    new Product({
     name: "Legendog 5pcs catnip toy",
     price: 11.99,
     quantity: 10,
     category: toys,
+    image: "yummy\src\assets\images\toys\catnip.png"
   }),
    new Product({
     name: "Upsky cat toy roller",
@@ -155,6 +165,13 @@ const products = [
     quantity: 10,
     category: toys,
     image: "yummy\src\assets\images\toys\tennisball.png"
+  }),
+  new Product({
+    name: "Mailer 20 pcs cat toy set",
+    price: 18.99,
+    quantity: 10,
+    category: toys,
+    image:"yummy\src\assets\images\toys\tunnel.png"
   }),
   
   new Product({
