@@ -10,7 +10,13 @@ import Login from './pages/Login';
 import Checkout from './pages/Checkout';
 
 export default function StoreContainer() {
-    const [currentPage, setCurrentPage] = useState('Homepage');
+    const [currentPage, setCurrentPage] = useState('Login');
+
+    const page = 'Homepage'
+
+    const handlePageChange = (page) => {
+        setCurrentPage(page);
+    }
 
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
@@ -34,8 +40,6 @@ export default function StoreContainer() {
         }
         return <Toys />;
     };
-
-    const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <div>
