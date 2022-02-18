@@ -1,4 +1,5 @@
 import React from "react";
+import Information from "../Information";
 
 function Homepage() {
 
@@ -10,13 +11,13 @@ function Homepage() {
                     <li uk-filter-control="[data-color='white']"><a href="#">Food</a></li>
                     <li uk-filter-control="[data-color='blue']"><a href="#">Toys</a></li>
                     <li uk-filter-control="[data-color='black']"><a href="#">Accessories</a></li>
-                    <li uk-filter-control="[data-color='black']"><a href="#">Health</a></li>
+                    <li uk-filter-control="[data-color='Health']"><a href="#">Health</a></li>
                 </ul>
 
                 <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid=''>
                     <li data-color="white">
                         <div class="uk-card uk-card-default uk-card-body">
-                            <a href="#modal-example" uk-toggle>Item</a>
+                            <a href="#modal-example" uk-toggle=''>Item</a>
                         </div>
                     </li>
                     <li data-color="blue">
