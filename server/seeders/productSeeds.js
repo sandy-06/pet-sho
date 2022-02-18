@@ -167,7 +167,7 @@ const products = [
     price: 11.99,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/tennisball.png"
+    image: "yummy\src\assets\images\toys\tennisball.png"
   }),
   new Product({
     name: "Mailer 20 pcs cat toy set",
