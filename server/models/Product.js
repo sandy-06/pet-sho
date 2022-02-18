@@ -1,6 +1,10 @@
 const { Schema, model } = require('mongoose');
-
+const mongoose = require("mongoose");
 const productSchema = new mongoose.Schema({
+  id:{
+    type: Number,
+    autoIncrement: true,
+  },
   name: {
     type: String,
     required: true,
@@ -25,6 +29,6 @@ const productSchema = new mongoose.Schema({
   }
 });
 
-const Product = model('Product', cartSchema);
+const Product = model('Product', productSchema);
 
 module.exports = Product;
