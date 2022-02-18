@@ -15,62 +15,63 @@ const products = [
     price: 35.98,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\blubuffalo.png"
+    image: "../../assets/images/food/blubuffalo.png"
   }),
   new Product({
     name: "Cesar wet dog food",
     price: 20.42,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\ceasarsdog.png"
+    image: "../../assets/images/food/ceasarsdog.png"
   }),
   new Product({
     name: "Purina Friskies wet cat food",
     price: 18.89,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\friskiescatfood.png"
-  }), new Product({
+    image: "../../assets/images/food/friskiescatfood.png"
+  }),
+   new Product({
     name: "IAMS proactive health dry cat food",
     price: 24.98,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\iamscat.png"
+    image: "../../assets/images/food/iamscat.png"
   }),
    new Product({
     name: "Instict dry dog food",
     price: 62.99.toExponential,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\instinct.png"
+    image: "../../assets/images/food/instinct.png"
   }),
    new Product({
     name: "Instinct dry cat food",
     price: 23.99,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\instinctcat.png"
+    image: "../../assets/images/food/instinctcat.png"
   }),
   new Product({
     name: "Nulo wet cat food",
     price: 13.37,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\nulocat.png"
+    image: "../../assets/images/food/nulocat.png"
   }),
   new Product({
     name: "Purina Pro Plan dry dog food",
     price: 55.48,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\purina.png"
+    image: "../../assets/images/food/purina.png"
   }),
    new Product({
     name: "Purina Fancy Feast wet cat food",
     price: 22.98,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\purinafancycat.png"
+    image: "../../assets/images/food/purinafancycat.png"
   }),
  
   new Product({
@@ -78,21 +79,21 @@ const products = [
     price: 40.99,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\sciencedietdog.png"
+    image: "../../assets/images/food/sciencedietdog.png"
   }),
   new Product({
     name: "Taste of the Wild dry dog food",
     price: 54.99,
     quantity: 10,
     category: food,
-    image: "yummy\src\assets\images\food\tasteofthewild.png"
+    image: "../../assets/images/food/tasteofthewild.png"
   }),
    new Product({
     name: "KIPRITII 18 pack dog toys",
     price: 26.88,
     quantity: 10,
     category: toys,
-    image: "yummy\src\assets\images\toys\assorteddogtoys.png"
+    image: "../../assets/images/toys/assorteddogtoys.png"
   }),
   
    new Product({
@@ -100,35 +101,35 @@ const products = [
     price: 13.9,
     quantity: 10,
     category: toys,
-    image: "yummy\src\assets\images\toys\assotcat.png"
+    image: "../../assets/images/toys/assotcat.png"
   }),
    new Product({
     name: "Potaroma fluffy cat Ball",
     price: 15.99,
     quantity: 10,
     category: toys,
-    image: "yummy\src\assets\images\toys/.png"
+    image: "../../assets/images/toys/.png"
   }),
    new Product({
     name: "Legendog 5pcs catnip toy",
     price: 11.99,
     quantity: 10,
     category: toys,
-    image: "yummy\src\assets\images\toys\catnip.png"
+    image: "../../assets/images/toys/catnip.png"
   }),
    new Product({
     name: "Upsky cat toy roller",
     price: 10.99,
     quantity: 10,
     category: toys,
-    image:"\yummy\src\assets\images\toys\catroller.png"
+    image:"../../assets/images/toys/catroller.png"
   }),
    new Product({
     name: "Andiker cat spiral spring",
     price: 5.89,
     quantity: 10,
     category: toys,
-    image: "yummy\src\assets\images\toys\catsprings.png",
+    image: "../../assets/images/toys/catsprings.png",
   }),
 
   // Food -> "../../ASSETS/IMAGES/"
@@ -167,7 +168,7 @@ const products = [
     price: 11.99,
     quantity: 10,
     category: toys,
-    image: "yummy\src\assets\images\toys\tennisball.png"
+    image: "../../assets/images/toys/tennisball.png"
   }),
   new Product({
     name: "Mailer 20 pcs cat toy set",
@@ -182,7 +183,7 @@ const products = [
     price: 16.99,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\catbathing.png"
+    image: "../../assets/images/accessories/catbathing.png"
     
   }),
   new Product({
@@ -190,7 +191,7 @@ const products = [
     price: 6.99.toExponential,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\catcomb.png"
+    image: "../../assets/images/accessories/catcomb.png"
     
   }),
   new Product({
@@ -198,7 +199,7 @@ const products = [
     price: 41.99,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\cattree.png"
+    image: "../../assets/images/accessories/cattree.png"
     
   }),
   new Product({
@@ -206,7 +207,7 @@ const products = [
     price: 62.99,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\dogbed.png"
+    image: "../../assets/images/accessories/dogbed.png"
     
   }),
   new Product({
@@ -214,7 +215,7 @@ const products = [
     price: 16.99,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\colars.png"
+    image: "../../assets/images/accessories/colars.png"
     
   }),
   new Product({
@@ -222,7 +223,7 @@ const products = [
     price: 22.68,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\elevateddogbed.png"
+    image: "../../assets/images/accessories/elevateddogbed.png"
     
   }),
   new Product({
@@ -230,7 +231,7 @@ const products = [
     price: 29.99,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\feeder-water.png"
+    image: "../../assets/images/accessories/feeder-water.png"
     
   }),
   new Product({
@@ -238,7 +239,7 @@ const products = [
     price: 19.99,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\halter.png"
+    image: "../../assets/images/accessories/halter.png"
     
   }),
   new Product({
@@ -246,7 +247,7 @@ const products = [
     price: 24.99,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\leash.png"
+    image: "../../assets/images/accessories/leash.png"
     
   }),
   new Product({
@@ -254,7 +255,7 @@ const products = [
     price: 24.63,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\traainingpads.png"
+    image: "../../assets/images/accessories/traainingpads.png"
     
   }),
   new Product({
@@ -262,7 +263,7 @@ const products = [
     price: 39.94,
     quantity: 10,
     category: gear,
-    image: "yummy\src\assets\images\accessories\water.png"
+    image: "../../assets/images/accessories/water.png"
     
   }),
   new Product({
@@ -270,84 +271,84 @@ const products = [
     price: 25.99,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\cranberry.png"
+    image: "../../assets/images/health/cranberry.png"
   }),
   new Product({
     name: "Oxyfresh Pet Dental Solution",
     price: 16.95,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\dentalwater.png"
+    image: "../../assets/images/health/dentalwater.png"
   }),
   new Product({
     name: "terramycin antibiotic for eye infection",
     price: 21.99,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\earmed.png"
+    image: "../../assets/images/health/earmed.png"
   }),
   new Product({
     name: "Feliway calming diffuser",
     price: 29.99,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\feliway.png"
+    image: "../../assets/images/health/feliway.png"
   }),
   new Product({
     name: "Hartz Hairball remedy",
     price: 4.47, 
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\hairball.png"
+    image: "../../assets/images/health/hairball.png"
   }),
   new Product({
     name: "Vetiq hip and Joint",
     price: 15.60,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\hipandjoint.png"
+    image: "../../assets/images/health/hipandjoint.png"
   }),
   new Product({
     name: "Nylabone advances oral Care",
     price: 8.09,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\oralcare.png"
+    image: "../../assets/images/health/oralcare.png"
   }),
   new Product({
     name: "Plaque off for cats",
     price: 14.40,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\plaqueremover.png"
+    image: "../../assets/images/health/plaqueremover.png"
   }),
   new Product({
     name: "Probiotic bites",
     price: 26.97,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\probiotics.png"
+    image: "../../assets/images/health/probiotics.png"
   }),
   new Product({
     name: "Pure Wild Alaska Salmon Oil",
     price: 14.97,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\salmonoil.png"
+    image: "../../assets/images/health/salmonoil.png"
   }),
   new Product({
     name: "virbac CET toothepaste",
     price: 10.38,
     quantity: 10,
     category: health,
-    image: "yummy\src\assets\images\health\toothpaste.png"
+    image: "../../assets/images/health/toothpaste.png"
   }),
   new Product({
     name: "Multivitamin",
     price: 19.94,
     quantity: 10,
     category: health,
-    image:"yummy\src\assets\images\health\vits.png"
+    image:"../../assets/images/health/vits.png"
   }),
   
   
