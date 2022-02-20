@@ -8,70 +8,80 @@ const products = [
    price: 11.95 , 
    quantity: 10,
    category: food,
-   image:"../../assets/images/food/bbtastefulcat.png"
+   image:"../../assets/images/food/bbtastefulcat.png",
+   description: "Blue Buffalo Tastefuls Natural pate wet cat food"
   }),
   new Product({
     name: "Blue Buffalo Dry dog Food",
     price: 35.98,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/blubuffalo.png"
+    image: "../../assets/images/food/blubuffalo.png",
+    description: "Blue Buffalo Life protection formula natural adult small breed dry dog food"
   }),
   new Product({
     name: "Cesar wet dog food",
     price: 20.42,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/ceasarsdog.png"
+    image: "../../assets/images/food/ceasarsdog.png",
+    description: "Cesar gourmet wet dog food variety packs-24 trays"
   }),
   new Product({
     name: "Purina Friskies wet cat food",
     price: 18.89,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/friskiescatfood.png"
+    image: "../../assets/images/food/friskiescatfood.png",
+    description: "Purina friskies gravy wet cat food variety pack, poultry shreds, meaty bits & Prime filets"
   }),
    new Product({
     name: "IAMS proactive health dry cat food",
     price: 24.98,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/iamscat.png"
+    image: "../../assets/images/food/iamscat.png",
+    description: "IAMS proactive health adult indoor weight & Hairball care dry cat food, chicken & salmon recipes"
   }),
    new Product({
     name: "Instict dry dog food",
     price: 62.99.toExponential,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/instinct.png"
+    image: "../../assets/images/food/instinct.png",
+    description: "Instinct raw boost grain free dry dog food, high protein kibble + freeze dried raw dob food"
   }),
    new Product({
     name: "Instinct dry cat food",
     price: 23.99,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/instinctcat.png"
+    image: "../../assets/images/food/instinctcat.png",
+    description: "Instinct grain free dry cat food, original raw coated natural high protein cat food"
   }),
   new Product({
     name: "Nulo wet cat food",
     price: 13.37,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/nulocat.png"
+    image: "../../assets/images/food/nulocat.png",
+    description: "Nulo freestyle wet cat food, 2.8 oz pouches, 6 or 24 count"
   }),
   new Product({
     name: "Purina Pro Plan dry dog food",
     price: 55.48,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/purina.png"
+    image: "../../assets/images/food/purina.png",
+    description: "purina pro plan with probiotics shredded blend high protein, adult dry dog food chicken and rice"
   }),
    new Product({
     name: "Purina Fancy Feast wet cat food",
     price: 22.98,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/purinafancycat.png"
+    image: "../../assets/images/food/purinafancycat.png",
+    description: "Purina Fancy Feast Petites gravy adult gourmet single serve break apart wet cat food"
   }),
  
   new Product({
@@ -79,21 +89,24 @@ const products = [
     price: 40.99,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/sciencedietdog.png"
+    image: "../../assets/images/food/sciencedietdog.png",
+    description: "Hill's science diet dry dog food, adult, small paws for small breed dogs"
   }),
   new Product({
     name: "Taste of the Wild dry dog food",
     price: 54.99,
     quantity: 10,
     category: food,
-    image: "../../assets/images/food/tasteofthewild.png"
+    image: "../../assets/images/food/tasteofthewild.png",
+    description: "Taste of the Wild Roasted Bison and venison high protein real meat recipes premium dry dog food with superfoods and nutrients"
   }),
    new Product({
     name: "KIPRITII 18 pack dog toys",
     price: 26.88,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/assorteddogtoys.png"
+    image: "../../assets/images/toys/assorteddogtoys.png",
+    description: "KIRITII dog chew toys for puppy-18 pack puppy teething chew toy"
   }),
   
    new Product({
@@ -101,28 +114,33 @@ const products = [
     price: 13.9,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/assotcat.png"
+    image: "../../assets/images/toys/assotcat.png",
+    description: "OODOSI cat wand toy, interactive cat toys with 2 poles and 9 attachments"
   }),
    new Product({
     name: "Potaroma fluffy cat Ball",
     price: 15.99,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/.png"
+    image: "../../assets/images/toys/.png",
+    description: "Potaroma 3 pack fluffy plush cat ball toys, interactive chirping balls kicker toys"
   }),
    new Product({
     name: "Legendog 5pcs catnip toy",
     price: 11.99,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/catnip.png"
+    image: "../../assets/images/toys/catnip.png",
+    description: "Legenddog 5pcs catnip toy, cat chew toy bite resistant catnip toys for cats"
+
   }),
    new Product({
     name: "Upsky cat toy roller",
     price: 10.99,
     quantity: 10,
     category: toys,
-    image:"../../assets/images/toys/catroller.png"
+    image:"../../assets/images/toys/catroller.png",
+    description: "UPSKY cat roller 3-level turntable cat toys and balls with six colorful balls."
   }),
    new Product({
     name: "Andiker cat spiral spring",
@@ -130,6 +148,7 @@ const products = [
     quantity: 10,
     category: toys,
     image: "../../assets/images/toys/catsprings.png",
+    description: "Andiker cat spiral spring, 12 pcs cat creative to to kill time and keep fit"
   }),
 
   // Food -> "../../ASSETS/IMAGES/"
@@ -139,21 +158,25 @@ const products = [
     price: 15.80,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/dragon.png"
+    image: "../../assets/images/toys/dragon.png",
+    description: "goDog, dragon Squeaker dog toy, chew guard and resistant technology"
+
   }),
    new Product({
     name: "Outward Hound Hid-a squirrel",
     price: 11.01,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/hideasquirrel.png"
+    image: "../../assets/images/toys/hideasquirrel.png",
+    description: "outward hound hide-a-squirrel squeaky puzzle plush dog toy"
   }),
    new Product({
     name: "Nerf Dog football",
     price: 9.99,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/nerfball.png"
+    image: "../../assets/images/toys/nerfball.png",
+    description: "Nerf dog rubber football dog toy with interactive squeaker"
 
   }),
    new Product({
@@ -161,21 +184,24 @@ const products = [
     price: 10.99,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/rooster.png"
+    image: "../../assets/images/toys/rooster.png",
+    description: "goDog checkers skinny rooster with chew guard technology tough plush dog toy"
   }),
    new Product({
     name: "Outward Hound tennis Ballz",
     price: 11.99,
     quantity: 10,
     category: toys,
-    image: "../../assets/images/toys/tennisball.png"
+    image: "../../assets/images/toys/tennisball.png",
+    description: "Outward hound Squeaker ballz, tennis ballz"
   }),
   new Product({
     name: "Mailer 20 pcs cat toy set",
     price: 18.99,
     quantity: 10,
     category: toys,
-    image:"../../assets/mages/toys/tunnel.png"
+    image:"../../assets/mages/toys/tunnel.png",
+    description: "malier 20 pce cat kitten toys set, collapsible cat tunnel etc"
   }),
   
   new Product({
@@ -183,7 +209,8 @@ const products = [
     price: 16.99,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/catbathing.png"
+    image: "../../assets/images/accessories/catbathing.png",
+    description: "Cat bag for bathing 8 pcs set with cat shower net bag adjustable grooming bruch nail clippers, etc"
     
   }),
   new Product({
@@ -191,7 +218,8 @@ const products = [
     price: 6.99.toExponential,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/catcomb.png"
+    image: "../../assets/images/accessories/catcomb.png",
+    description: "Cat comb per short and long hair soft deshedding brush"
     
   }),
   new Product({
@@ -199,7 +227,19 @@ const products = [
     price: 41.99,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/cattree.png"
+    image: "../../assets/images/accessories/cattree.png",
+    describe: "Fish&nap cat tree cat tower cat condo sisal scratching posts"
+    
+  }),
+  
+  
+  new Product({
+    name: "Masbrill light up dog Collar",
+    price: 16.99,
+    quantity: 10,
+    category: gear,
+    image: "../../assets/images/accessories/colars.png",
+    description: "Masbrill light up dog collar led glow collar with usb rechargeable lighted flashing dog collar"
     
   }),
   new Product({
@@ -207,15 +247,8 @@ const products = [
     price: 62.99,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/dogbed.png"
-    
-  }),
-  new Product({
-    name: "Masbrill light up dog Collar",
-    price: 16.99,
-    quantity: 10,
-    category: gear,
-    image: "../../assets/images/accessories/colars.png"
+    image: "../../assets/images/accessories/dogbed.png",
+    description: "Furhave orthopedic, cooling gel and memory foam pet beds"
     
   }),
   new Product({
@@ -223,15 +256,16 @@ const products = [
     price: 22.68,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/elevateddogbed.png"
-    
+    image: "../../assets/images/accessories/elevateddogbed.png",
+    description: "Amazon basics cooling elevated pet bed, xs to xl"
   }),
   new Product({
     name: "KTWEGOFU Auto cat feeder",
     price: 29.99,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/feeder-water.png"
+    image: "../../assets/images/accessories/feeder-water.png",
+    description: "KTWEGOFU automatic cat feeder and water dispenser, auto gravity food feeder"
     
   }),
   new Product({
@@ -239,7 +273,8 @@ const products = [
     price: 19.99,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/halter.png"
+    image: "../../assets/images/accessories/halter.png",
+    description: "juxzh truelove soft front dog harness. Best reflective no pull harness with handle and 2 leash attachments"
     
   }),
   new Product({
@@ -247,15 +282,16 @@ const products = [
     price: 24.99,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/leash.png"
-    
+    image: "../../assets/images/accessories/leash.png",
+    description: "Venture leash w/locking comfort grip"
   }),
   new Product({
     name: "Training pads",
     price: 24.63,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/traainingpads.png"
+    image: "../../assets/images/accessories/traainingpads.png",
+    description: "Glad for pets black charcoal puppy pads new and improver puppy potty training pads"
     
   }),
   new Product({
@@ -263,29 +299,40 @@ const products = [
     price: 39.94,
     quantity: 10,
     category: gear,
-    image: "../../assets/images/accessories/water.png"
-    
+    image: "../../assets/images/accessories/water.png",
+    description: "Tomxcute cat water fountain, 3.2l/108oz automatic stainless steel pet fountain"
+  }),
+  new Product({
+    name: "Cat window perch",
+    price: 23.99,
+    quantity: 10,
+    category: gear,
+    image: "../../assets/images/accessories/windowledge.png",
+    description: "cat window perch, cat hammock window seat, space saving mounted cat bed for large cats"
   }),
   new Product({
     name: "PetHonesty cranberry for Dogs",
     price: 25.99,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/cranberry.png"
+    image: "../../assets/images/health/cranberry.png",
+    description: "pethonesty cranberry for Dogs- soft chew supplements, kidney and bladder support"
   }),
   new Product({
     name: "Oxyfresh Pet Dental Solution",
     price: 16.95,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/dentalwater.png"
+    image: "../../assets/images/health/dentalwater.png",
+    description: "Oxyfresh premium pet dental care solution pet water additive"
   }),
   new Product({
     name: "terramycin antibiotic for eye infection",
     price: 21.99,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/earmed.png"
+    image: "../../assets/images/health/eyemed.png",
+    description: "terramycin antibiotic ointment for eye infection treatment in dogs, cats, cattle, horses and sheep"
   }),
   new Product({
     name: "Feliway calming diffuser",

@@ -13,10 +13,11 @@ const typeDefs = gql`
   type Product {
     _id: ID
     name: String
-    prices: Number
-    quantity: Number
+    prices: Int
+    quantity: Int
     category: String
     image: String
+    description: String
   }
   type Cart {
     _id: ID
