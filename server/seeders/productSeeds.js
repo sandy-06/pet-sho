@@ -339,63 +339,72 @@ const products = [
     price: 29.99,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/feliway.png"
+    image: "../../assets/images/health/feliway.png",
+    description: "feliway optimum cat, enhanced calming pheromone Diffuser"
   }),
   new Product({
     name: "Hartz Hairball remedy",
     price: 4.47, 
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/hairball.png"
+    image: "../../assets/images/health/hairball.png",
+    description: "Hartz Hairball remedy plus chicken flavored soft chews for cats"
   }),
   new Product({
     name: "Vetiq hip and Joint",
     price: 15.60,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/hipandjoint.png"
+    image: "../../assets/images/health/hipandjoint.png",
+    description: "Vetiq vet recommended hip and joint supplement for dogs, chicken flavored soft chews"
   }),
   new Product({
     name: "Nylabone advances oral Care",
     price: 8.09,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/oralcare.png"
+    image: "../../assets/images/health/oralcare.png",
+    description: "Nylabone advanced oral care water additives for Dogs"
   }),
   new Product({
     name: "Plaque off for cats",
     price: 14.40,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/plaqueremover.png"
+    image: "../../assets/images/health/plaqueremover.png",
+    description: "Plaque off for cats 40g - special feline formulation"
   }),
   new Product({
     name: "Probiotic bites",
     price: 26.97,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/probiotics.png"
+    image: "../../assets/images/health/probiotics.png",
+    description: "zesty paws probiotic for dogs-probiotics for gut flora, digestive health"
   }),
   new Product({
     name: "Pure Wild Alaska Salmon Oil",
     price: 14.97,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/salmonoil.png"
+    image: "../../assets/images/health/salmonoil.png",
+    description: "Pure wild Alaskan salmon oil for dogs and cats-joint,immune and heart health"
   }),
   new Product({
     name: "virbac CET toothepaste",
     price: 10.38,
     quantity: 10,
     category: health,
-    image: "../../assets/images/health/toothpaste.png"
+    image: "../../assets/images/health/toothpaste.png",
+    description: "Virbac CET enzymatic toothpaste Eliminates bad breath by removing plaque and tartar buildup"
   }),
   new Product({
     name: "Multivitamin",
     price: 19.94,
     quantity: 10,
     category: health,
-    image:"../../assets/images/health/vits.png"
+    image:"../../assets/images/health/vits.png",
+    description: "10 in 1 Multivitamin with glucosamine and PurforMSM hip and joint, skin and coat, digestion and Brain health"
   }),
   
   
