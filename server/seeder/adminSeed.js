@@ -1,8 +1,18 @@
 const Admin = require("../models/users");
 const mongoose = require("mongoose");
-const dev = require("../config/dev"); //
 
-const admins = [
+
+// mongoose
+ // .connect('mongodb://localhost27017/test',{
+//   // useNewUrlParser:true, useUnifiedTopology: true})
+//    .then(() =>{
+//      console.log('MONGO CONNECTION OPEN!!!');
+  //  })
+  //  .catch(() => {
+ //     console.log(err);
+    // })
+
+const adminSeeds = [
     new Admin({
         name: "Sandy Sanders",
         email: "sandy@gmail.com",
@@ -27,24 +37,13 @@ const admins = [
         password: "123456",
         isAdmin: true
     })
-]
+];
 
-mongoose
-  .connect(String(dev.db), { useNewUrlParser: true })
-  .catch(err => {
-    console.log(err.stack);
-    process.exit(1);
-  })
-  .then(() => {
-    console.log("connected to db in development environment");
-  });
-//save your data. this is an async operation
-//after you make sure you seeded all the products, disconnect automatically
-admins.map(async (p, index) => {
-  await p.save((err, result) => {
-    if (index === admins.length - 1) {
-      console.log("DONE!");
-      mongoose.disconnect();
-    }
-  });
-});
+const seedDB = async () => {
+  await User.deleteMany({});
+  await User.insertMany(adminSeeds);
+}
+//seedDB().then(() => {
+  //  mongoose.connection.close();
+//});
+
