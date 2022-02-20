@@ -34,54 +34,17 @@ const resolvers = {
           
             return user;
           },
-          addProduct: {
+          addProduct: async (parent, args) => {
+            const product = await Product.create(args);
+            return Product;
 
           },
-          deleteProduct:{
+          deleteProduct:async () => {
+            return await Product.findByIdAndDelete()
 
-          }
-       
-   
-   
-   
-        },
-
-
-
-   
-     // Product: async () => {
-      //  return Product.find()
-          
-}   
-  
-    Mutation: {
-      addUser: async (parent, args) => {
-        const user = await User.create(args);
-        const token = signToken(user);
-  
-        return { token, user };
+          },
+        }  
       }
-    }
-  
-      //login: async (parent, { email, password }) => {
-        //const user = await User.findOne({ email });
-  
-       // if (!user) {
-       //   throw new AuthenticationError('Incorrect credentials');
-        
-  
-      //  const correctPw = await user.isCorrectPassword(password);
-  
-      //  if (!correctPw) {
-      //    throw new AuthenticationError('Incorrect credentials');
-       // }
-  //
-      //  const token = signToken(user);
-      //  return { token, user };
-      
-      
-      
-    
   
 
   
